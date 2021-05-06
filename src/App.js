@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+import logo from './assets/images/logo.svg';
 import './App.css';
+
+import ListItems from './components/UI/ListItems';
 
 function App() {
   return (
     <div className="App">
+        {true && <ListItems/>}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -1,0 +1,33 @@
+.list-item-container {
+    display: block;
+    margin: auto;
+    height: 100vh;
+    overflow: auto;
+}
+
+.list-item-object {
+    display: block;
+    margin: 0 auto;
+    background-color: #fb8439;
+}
+
+.list-item-header {
+    margin: 0 auto;
+    align-self: center;
+    display: flex;
+}
+
+.list-item-header > h1 {
+    margin: 0 auto;
+    align-self: center;
+}
+
+
+.list-item-header > img {
+    width: 36px;
+    /*transition: transform 0.6s linear;*/
+}
+
+.list-item-header > img.ended {
+    /*transform: scale(1.5);*/
+}
